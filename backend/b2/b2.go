@@ -987,7 +987,11 @@ func (o *Object) Size() int64 {
 //  o.sha1
 func (o *Object) decodeMetaDataRaw(ID, SHA1 string, Size int64, UploadTimestamp api.Timestamp, Info map[string]string, mimeType string) (err error) {
 	o.id = ID
-	o.sha1 = SHA1
+	if strings.HasPrefix(SHA1, "unverified:") {
+		o.sha1 = SHA1[11:]
+	} else {
+		o.sha1 = SHA1
+	}
 	o.mimeType = mimeType
 	// Read SHA1 from metadata if it exists and isn't set
 	if o.sha1 == "" || o.sha1 == "none" {
