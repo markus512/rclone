@@ -158,12 +158,12 @@ Install from source
 Make sure you have at least Go 1.6 installed. Make sure your GOPATH is
 set, then:
 
-    go get -u -v github.com/ncw/rclone
+    go get -u -v github.com/markus512/rclone
 
 and this will build the binary in $GOPATH/bin. If you have built rclone
 before then you will want to update its dependencies first with this
 
-    go get -u -v github.com/ncw/rclone/...
+    go get -u -v github.com/markus512/rclone/...
 
 
 Installation with Ansible
@@ -6617,9 +6617,9 @@ on them.
 Any reports or feedback on how cache behaves on this OS is greatly
 appreciated.
 
--   https://github.com/ncw/rclone/issues/1935
--   https://github.com/ncw/rclone/issues/1907
--   https://github.com/ncw/rclone/issues/1834
+-   https://github.com/markus512/rclone/issues/1935
+-   https://github.com/markus512/rclone/issues/1907
+-   https://github.com/markus512/rclone/issues/1834
 
 Risk of throttling
 
@@ -6639,8 +6639,8 @@ the file in the cache at the same time if configured to do so.
 
 Future enhancements:
 
--   https://github.com/ncw/rclone/issues/1937
--   https://github.com/ncw/rclone/issues/1936
+-   https://github.com/markus512/rclone/issues/1937
+-   https://github.com/markus512/rclone/issues/1936
 
 cache and crypt
 
@@ -11855,7 +11855,7 @@ Gitub project
 
 The project website is at:
 
--   https://github.com/ncw/rclone
+-   https://github.com/markus512/rclone
 
 There you can file bug reports, ask for help or contribute pull
 requests.

@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/operations"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/operations"
 	"github.com/pkg/errors"
 )
 

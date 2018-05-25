@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"github.com/billziss-gh/cgofuse/fuse"
-	"github.com/ncw/rclone/cmd/mountlib"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/vfs"
-	"github.com/ncw/rclone/vfs/vfsflags"
+	"github.com/markus512/rclone/cmd/mountlib"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/vfs"
+	"github.com/markus512/rclone/vfs/vfsflags"
 	"github.com/okzk/sdnotify"
 	"github.com/pkg/errors"
 )

@@ -1,8 +1,8 @@
 package sync
 
 import (
-	"github.com/ncw/rclone/cmd"
-	"github.com/ncw/rclone/fs/sync"
+	"github.com/markus512/rclone/cmd"
+	"github.com/markus512/rclone/fs/sync"
 	"github.com/spf13/cobra"
 )
 

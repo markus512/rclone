@@ -3,9 +3,9 @@ package ls
 import (
 	"os"
 
-	"github.com/ncw/rclone/cmd"
-	"github.com/ncw/rclone/cmd/ls/lshelp"
-	"github.com/ncw/rclone/fs/operations"
+	"github.com/markus512/rclone/cmd"
+	"github.com/markus512/rclone/cmd/ls/lshelp"
+	"github.com/markus512/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

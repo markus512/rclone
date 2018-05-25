@@ -12,9 +12,9 @@ import (
 	"os/exec"
 	"testing"
 
-	_ "github.com/ncw/rclone/backend/local"
-	"github.com/ncw/rclone/cmd/serve/httplib"
-	"github.com/ncw/rclone/fstest"
+	_ "github.com/markus512/rclone/backend/local"
+	"github.com/markus512/rclone/cmd/serve/httplib"
+	"github.com/markus512/rclone/fstest"
 	"github.com/stretchr/testify/assert"
 )
 

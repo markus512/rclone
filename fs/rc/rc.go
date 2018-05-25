@@ -14,8 +14,8 @@ import (
 	_ "net/http/pprof" // install the pprof http handlers
 	"strings"
 
-	"github.com/ncw/rclone/cmd/serve/httplib"
-	"github.com/ncw/rclone/fs"
+	"github.com/markus512/rclone/cmd/serve/httplib"
+	"github.com/markus512/rclone/fs"
 	"github.com/pkg/errors"
 )
 

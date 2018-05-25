@@ -8,8 +8,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/hash"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/hash"
 )
 
 var errNotImpl = errors.New("not implemented")

@@ -7,13 +7,13 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/accounting"
-	"github.com/ncw/rclone/fs/filter"
-	"github.com/ncw/rclone/fs/fserrors"
-	"github.com/ncw/rclone/fs/hash"
-	"github.com/ncw/rclone/fs/march"
-	"github.com/ncw/rclone/fs/operations"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/accounting"
+	"github.com/markus512/rclone/fs/filter"
+	"github.com/markus512/rclone/fs/fserrors"
+	"github.com/markus512/rclone/fs/hash"
+	"github.com/markus512/rclone/fs/march"
+	"github.com/markus512/rclone/fs/operations"
 	"github.com/pkg/errors"
 )
 

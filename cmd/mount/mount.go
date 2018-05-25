@@ -11,11 +11,11 @@ import (
 
 	"bazil.org/fuse"
 	fusefs "bazil.org/fuse/fs"
-	"github.com/ncw/rclone/cmd/mountlib"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/lib/atexit"
-	"github.com/ncw/rclone/vfs"
-	"github.com/ncw/rclone/vfs/vfsflags"
+	"github.com/markus512/rclone/cmd/mountlib"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/lib/atexit"
+	"github.com/markus512/rclone/vfs"
+	"github.com/markus512/rclone/vfs/vfsflags"
 	"github.com/okzk/sdnotify"
 	"github.com/pkg/errors"
 )

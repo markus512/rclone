@@ -4,8 +4,8 @@ package b2_test
 import (
 	"testing"
 
-	"github.com/ncw/rclone/backend/b2"
-	"github.com/ncw/rclone/fstest/fstests"
+	"github.com/markus512/rclone/backend/b2"
+	"github.com/markus512/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

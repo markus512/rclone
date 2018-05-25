@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/filter"
-	"github.com/ncw/rclone/fs/list"
-	"github.com/ncw/rclone/fs/walk"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/filter"
+	"github.com/markus512/rclone/fs/list"
+	"github.com/markus512/rclone/fs/walk"
 	"golang.org/x/text/unicode/norm"
 )
 

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ncw/rclone/backend/crypt"
-	_ "github.com/ncw/rclone/backend/local"
-	"github.com/ncw/rclone/fs/config/obscure"
-	"github.com/ncw/rclone/fstest/fstests"
+	"github.com/markus512/rclone/backend/crypt"
+	_ "github.com/markus512/rclone/backend/local"
+	"github.com/markus512/rclone/fs/config/obscure"
+	"github.com/markus512/rclone/fstest/fstests"
 )
 
 // TestStandard runs integration tests against the remote

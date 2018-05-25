@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ncw/rclone/backend/cache"
-	"github.com/ncw/rclone/cmd"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
+	"github.com/markus512/rclone/backend/cache"
+	"github.com/markus512/rclone/cmd"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

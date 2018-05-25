@@ -12,7 +12,7 @@ import (
 	"time"
 
 	auth "github.com/abbot/go-http-auth"
-	"github.com/ncw/rclone/fs"
+	"github.com/markus512/rclone/fs"
 )
 
 // Globals

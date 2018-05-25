@@ -14,11 +14,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ncw/rclone/backend/b2/api"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/accounting"
-	"github.com/ncw/rclone/fs/hash"
-	"github.com/ncw/rclone/lib/rest"
+	"github.com/markus512/rclone/backend/b2/api"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/accounting"
+	"github.com/markus512/rclone/fs/hash"
+	"github.com/markus512/rclone/lib/rest"
 	"github.com/pkg/errors"
 )
 

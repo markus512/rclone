@@ -2,8 +2,8 @@
 package vfsflags
 
 import (
-	"github.com/ncw/rclone/fs/config/flags"
-	"github.com/ncw/rclone/vfs"
+	"github.com/markus512/rclone/fs/config/flags"
+	"github.com/markus512/rclone/vfs"
 	"github.com/spf13/pflag"
 )
 

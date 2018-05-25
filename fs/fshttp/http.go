@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ncw/rclone/fs"
+	"github.com/markus512/rclone/fs"
 	"golang.org/x/time/rate"
 )
 

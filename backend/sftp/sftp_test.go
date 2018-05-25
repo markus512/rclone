@@ -7,8 +7,8 @@ package sftp_test
 import (
 	"testing"
 
-	"github.com/ncw/rclone/backend/sftp"
-	"github.com/ncw/rclone/fstest/fstests"
+	"github.com/markus512/rclone/backend/sftp"
+	"github.com/markus512/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

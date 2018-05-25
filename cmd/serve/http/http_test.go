@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/ncw/rclone/backend/local"
-	"github.com/ncw/rclone/cmd/serve/httplib"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
-	"github.com/ncw/rclone/fs/filter"
+	_ "github.com/markus512/rclone/backend/local"
+	"github.com/markus512/rclone/cmd/serve/httplib"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
+	"github.com/markus512/rclone/fs/filter"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

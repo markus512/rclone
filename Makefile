@@ -16,7 +16,7 @@ endif
 
 rclone:
 	touch fs/version.go
-	go install -v --ldflags "-s -X github.com/ncw/rclone/fs.Version=$(TAG)" $(BUILDTAGS)
+	go install -v --ldflags "-s -X github.com/markus512/rclone/fs.Version=$(TAG)" $(BUILDTAGS)
 	cp -av `go env GOPATH`/bin/rclone .
 
 vars:
@@ -33,9 +33,9 @@ version:
 
 # Full suite of integration tests
 test:	rclone
-	go install github.com/ncw/rclone/fstest/test_all
+	go install github.com/markus512/rclone/fstest/test_all
 	-go test -v -count 1 $(BUILDTAGS) $(GO_FILES) 2>&1 | tee test.log
-	-test_all github.com/ncw/rclone/fs/operations github.com/ncw/rclone/fs/sync 2>&1 | tee fs/test_all.log
+	-test_all github.com/markus512/rclone/fs/operations github.com/markus512/rclone/fs/sync 2>&1 | tee fs/test_all.log
 	@echo "Written logs in test.log and fs/test_all.log"
 
 # Quick test

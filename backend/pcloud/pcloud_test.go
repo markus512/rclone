@@ -4,8 +4,8 @@ package pcloud_test
 import (
 	"testing"
 
-	"github.com/ncw/rclone/backend/pcloud"
-	"github.com/ncw/rclone/fstest/fstests"
+	"github.com/markus512/rclone/backend/pcloud"
+	"github.com/markus512/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

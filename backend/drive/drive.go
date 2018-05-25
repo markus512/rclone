@@ -21,16 +21,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
-	"github.com/ncw/rclone/fs/config/flags"
-	"github.com/ncw/rclone/fs/config/obscure"
-	"github.com/ncw/rclone/fs/fserrors"
-	"github.com/ncw/rclone/fs/fshttp"
-	"github.com/ncw/rclone/fs/hash"
-	"github.com/ncw/rclone/lib/dircache"
-	"github.com/ncw/rclone/lib/oauthutil"
-	"github.com/ncw/rclone/lib/pacer"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
+	"github.com/markus512/rclone/fs/config/flags"
+	"github.com/markus512/rclone/fs/config/obscure"
+	"github.com/markus512/rclone/fs/fserrors"
+	"github.com/markus512/rclone/fs/fshttp"
+	"github.com/markus512/rclone/fs/hash"
+	"github.com/markus512/rclone/lib/dircache"
+	"github.com/markus512/rclone/lib/oauthutil"
+	"github.com/markus512/rclone/lib/pacer"
 	"github.com/pkg/errors"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
@@ -575,7 +575,7 @@ func NewFs(name, path string) (fs.Fs, error) {
 			if _, isObject := e.(fs.Object); isObject && e.Remote() == remote {
 				// XXX: update the old f here instead of returning tempF, since
 				// `features` were already filled with functions having *f as a receiver.
-				// See https://github.com/ncw/rclone/issues/2182
+				// See https://github.com/markus512/rclone/issues/2182
 				f.dirCache = tempF.dirCache
 				f.root = tempF.root
 				return f, fs.ErrorIsFile

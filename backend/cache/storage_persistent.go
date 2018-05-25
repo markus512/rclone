@@ -19,8 +19,8 @@ import (
 	"fmt"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/walk"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/walk"
 	"github.com/pkg/errors"
 )
 

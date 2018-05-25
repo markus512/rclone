@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ncw/rclone/cmd"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config/flags"
-	"github.com/ncw/rclone/vfs"
-	"github.com/ncw/rclone/vfs/vfsflags"
+	"github.com/markus512/rclone/cmd"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config/flags"
+	"github.com/markus512/rclone/vfs"
+	"github.com/markus512/rclone/vfs/vfsflags"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )
@@ -160,9 +160,9 @@ too many callbacks to rclone from the kernel.
 In theory 0s should be the correct value for filesystems which can
 change outside the control of the kernel. However this causes quite a
 few problems such as
-[rclone using too much memory](https://github.com/ncw/rclone/issues/2157),
+[rclone using too much memory](https://github.com/markus512/rclone/issues/2157),
 [rclone not serving files to samba](https://forum.rclone.org/t/rclone-1-39-vs-1-40-mount-issue/5112)
-and [excessive time listing directories](https://github.com/ncw/rclone/issues/2095#issuecomment-371141147).
+and [excessive time listing directories](https://github.com/markus512/rclone/issues/2095#issuecomment-371141147).
 
 The kernel can cache the info about a file for the time given by
 "--attr-timeout". You may see corruption if the remote file changes

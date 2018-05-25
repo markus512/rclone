@@ -9,14 +9,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ncw/rclone/cmd"
-	"github.com/ncw/rclone/cmd/serve/httplib"
-	"github.com/ncw/rclone/cmd/serve/httplib/httpflags"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/accounting"
-	"github.com/ncw/rclone/lib/rest"
-	"github.com/ncw/rclone/vfs"
-	"github.com/ncw/rclone/vfs/vfsflags"
+	"github.com/markus512/rclone/cmd"
+	"github.com/markus512/rclone/cmd/serve/httplib"
+	"github.com/markus512/rclone/cmd/serve/httplib/httpflags"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/accounting"
+	"github.com/markus512/rclone/lib/rest"
+	"github.com/markus512/rclone/vfs"
+	"github.com/markus512/rclone/vfs/vfsflags"
 	"github.com/spf13/cobra"
 )
 

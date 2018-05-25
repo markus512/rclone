@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ncw/rclone/fs/hash"
+	"github.com/markus512/rclone/fs/hash"
 	"github.com/pkg/errors"
 )
 

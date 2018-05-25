@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/asyncreader"
-	"github.com/ncw/rclone/fs/fserrors"
-	"github.com/ncw/rclone/fstest/mockobject"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/asyncreader"
+	"github.com/markus512/rclone/fs/fserrors"
+	"github.com/markus512/rclone/fstest/mockobject"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

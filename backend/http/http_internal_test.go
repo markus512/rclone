@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
-	"github.com/ncw/rclone/fstest"
-	"github.com/ncw/rclone/lib/rest"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
+	"github.com/markus512/rclone/fstest"
+	"github.com/markus512/rclone/lib/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

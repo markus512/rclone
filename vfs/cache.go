@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/djherbis/times"
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
 	"github.com/pkg/errors"
 )
 

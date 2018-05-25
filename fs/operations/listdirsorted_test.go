@@ -3,10 +3,10 @@ package operations_test
 import (
 	"testing"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/filter"
-	"github.com/ncw/rclone/fs/list"
-	"github.com/ncw/rclone/fstest"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/filter"
+	"github.com/markus512/rclone/fs/list"
+	"github.com/markus512/rclone/fstest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

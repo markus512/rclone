@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ncw/rclone/cmd"
-	"github.com/ncw/rclone/cmd/serve/httplib/httpflags"
+	"github.com/markus512/rclone/cmd"
+	"github.com/markus512/rclone/cmd/serve/httplib/httpflags"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

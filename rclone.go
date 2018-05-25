@@ -6,10 +6,10 @@ package main
 import (
 	"log"
 
-	"github.com/ncw/rclone/cmd"
+	"github.com/markus512/rclone/cmd"
 
-	_ "github.com/ncw/rclone/backend/all" // import all backends
-	_ "github.com/ncw/rclone/cmd/all"     // import all commands
+	_ "github.com/markus512/rclone/backend/all" // import all backends
+	_ "github.com/markus512/rclone/cmd/all"     // import all commands
 )
 
 func main() {

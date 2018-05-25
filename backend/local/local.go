@@ -15,11 +15,11 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
-	"github.com/ncw/rclone/fs/config/flags"
-	"github.com/ncw/rclone/fs/hash"
-	"github.com/ncw/rclone/lib/readers"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
+	"github.com/markus512/rclone/fs/config/flags"
+	"github.com/markus512/rclone/fs/hash"
+	"github.com/markus512/rclone/lib/readers"
 	"github.com/pkg/errors"
 	"google.golang.org/appengine/log"
 )

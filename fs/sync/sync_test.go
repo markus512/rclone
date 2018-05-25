@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/ncw/rclone/backend/all" // import all backends
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/accounting"
-	"github.com/ncw/rclone/fs/filter"
-	"github.com/ncw/rclone/fs/hash"
-	"github.com/ncw/rclone/fs/operations"
-	"github.com/ncw/rclone/fstest"
+	_ "github.com/markus512/rclone/backend/all" // import all backends
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/accounting"
+	"github.com/markus512/rclone/fs/filter"
+	"github.com/markus512/rclone/fs/hash"
+	"github.com/markus512/rclone/fs/operations"
+	"github.com/markus512/rclone/fstest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/text/unicode/norm"

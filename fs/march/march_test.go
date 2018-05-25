@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fstest/mockobject"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fstest/mockobject"
 	"github.com/stretchr/testify/assert"
 )
 

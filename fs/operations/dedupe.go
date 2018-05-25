@@ -9,10 +9,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
-	"github.com/ncw/rclone/fs/hash"
-	"github.com/ncw/rclone/fs/walk"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
+	"github.com/markus512/rclone/fs/hash"
+	"github.com/markus512/rclone/fs/walk"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 )

@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/config"
-	"github.com/ncw/rclone/fs/fshttp"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/config"
+	"github.com/markus512/rclone/fs/fshttp"
 	"github.com/pkg/errors"
 	"github.com/skratchdot/open-golang/open"
 	"golang.org/x/oauth2"

@@ -37,10 +37,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/fserrors"
-	"github.com/ncw/rclone/fs/object"
-	"github.com/ncw/rclone/fs/walk"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/fserrors"
+	"github.com/markus512/rclone/fs/object"
+	"github.com/markus512/rclone/fs/walk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

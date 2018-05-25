@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ncw/rclone/fs"
+	"github.com/markus512/rclone/fs"
 	"github.com/pkg/errors"
 )
 

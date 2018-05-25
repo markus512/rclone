@@ -8,10 +8,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/rclone/fs/accounting"
-	"github.com/ncw/rclone/fs/log"
-	"github.com/ncw/rclone/fs/operations"
+	"github.com/markus512/rclone/fs"
+	"github.com/markus512/rclone/fs/accounting"
+	"github.com/markus512/rclone/fs/log"
+	"github.com/markus512/rclone/fs/operations"
 	"github.com/pkg/errors"
 )
 
