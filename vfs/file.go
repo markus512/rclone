@@ -10,6 +10,7 @@ import (
 	"github.com/ncw/rclone/fs"
 	"github.com/ncw/rclone/fs/log"
 	"github.com/pkg/errors"
+	"github.com/ncw/rclone/fs/operations"
 )
 
 // File represents a file
@@ -107,22 +108,31 @@ func (f *File) applyPendingRename() {
 // Otherwise it will queue the rename operation on the remote until no writers
 // remain.
 func (f *File) rename(destDir *Dir, newName string) error {
-	// FIXME: could Copy then Delete if Move not available
-	// - though care needed if case insensitive...
-	doMove := f.d.f.Features().Move
-	if doMove == nil {
-		err := errors.Errorf("Fs %q can't rename files (no Move)", f.d.f)
-		fs.Errorf(f.Path(), "Dir.Rename error: %v", err)
-		return err
-	}
 
 	renameCall := func() error {
 		newPath := path.Join(destDir.path, newName)
-		newObject, err := doMove(f.o, newPath)
-		if err != nil {
-			fs.Errorf(f.Path(), "File.Rename error: %v", err)
-			return err
+		var newObject fs.Object
+		var err error
+		doMove := f.d.f.Features().Move
+		if doMove == nil {
+			newObject, err = operations.Copy(f.d.f, nil, newPath, f.o)
+			if err != nil {
+				fs.Errorf(f.Path(), "File.Rename error (copy): %v", err)
+				return err
+			}
+			err = f.o.Remove();
+			if err != nil {
+				fs.Errorf(f.Path(), "File.Rename error (remove): %v", err)
+				return err
+			}
+		} else {
+			newObject, err = doMove(f.o, newPath)
+			if err != nil {
+				fs.Errorf(f.Path(), "File.Rename error: %v", err)
+				return err
+			}
 		}
+
 		// Update the node with the new details
 		fs.Debugf(f.o, "Updating file with %v %p", newObject, f)
 		// f.rename(destDir, newObject)
